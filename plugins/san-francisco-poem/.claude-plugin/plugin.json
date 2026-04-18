@@ -4,12 +4,5 @@
   "version": "1.0.0",
   "author": {
     "name": "bob-the-sf-fox"
-  },
-  "skills": [
-    {
-      "name": "san-francisco-poem",
-      "description": "Write a vivid San Francisco poem",
-      "path": "skills/san-francisco-poem"
-    }
-  ]
+  }
 }
