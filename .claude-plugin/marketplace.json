@@ -1,24 +1,21 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "bob-sf-plugins",
+  "version": "1.0.0",
+  "description": "Claude Code plugins by bob-the-sf-fox",
   "owner": {
-    "name": "bob-the-sf-fox",
-    "url": "https://github.com/bob-the-sf-fox"
-  },
-  "metadata": {
-    "description": "A small collection of Claude Code plugins by bob-the-sf-fox.",
-    "version": "1.0.0"
+    "name": "bob-the-sf-fox"
   },
   "plugins": [
     {
       "name": "san-francisco-poem",
-      "source": "./plugins/san-francisco-poem",
       "description": "Write vivid, high-quality poems about San Francisco — fog, neighborhoods, bridges, hills, and spirit.",
       "version": "1.0.0",
       "author": {
         "name": "bob-the-sf-fox"
       },
-      "category": "writing",
-      "keywords": ["poetry", "san francisco", "writing", "creative"]
+      "source": "./plugins/san-francisco-poem",
+      "category": "writing"
     }
   ]
 }
