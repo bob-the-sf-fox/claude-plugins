@@ -1,0 +1,15 @@
+{
+  "name": "san-francisco-poem",
+  "description": "Adds a /san-francisco-poem skill to Claude Code. Write vivid, high-quality poems about San Francisco — its fog, neighborhoods, bridges, hills, and spirit.",
+  "version": "1.0.0",
+  "author": {
+    "name": "bob-the-sf-fox"
+  },
+  "skills": [
+    {
+      "name": "san-francisco-poem",
+      "description": "Write a vivid San Francisco poem",
+      "path": "skills/san-francisco-poem"
+    }
+  ]
+}
